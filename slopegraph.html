@@ -20,7 +20,7 @@
 						context.lineTo(widthOfCanvas, rightValue);
 						context.stroke();
 					};
-					for each (var value in dataset) {
+					for (var value of dataset) {
 						chart(value[0], value[1]);
 					};
 				}
